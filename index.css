@@ -1,0 +1,434 @@
+.header {
+    background-image: url(http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/header-bg.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 65vw;
+}
+.header-top {
+    margin: 0 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    top:30px;
+}
+.title-start {
+    font-size: 28px;
+    color: #fed136;
+}
+.connect {
+    position: absolute; 
+    color:#fff; 
+    left: 50%;
+    display:inline-block;
+}
+.title {
+    font-size: 4.88vw;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.subtitle {
+    font-size: 2.6vw;
+    font-style: oblique;
+    font-weight: normal;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    margin: -2.6vw;
+}
+.but1 {
+    background-color: #fed136; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 50px
+}
+.box1 {
+    position: relative;
+    top: 50%;
+    margin-top: -11vw;
+}
+.box2 {
+    display:flex;
+    min-width: 300px;
+}
+.box-stamp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 10px;
+    min-width: 300px;
+}
+.stamp1 {
+    width: 60px;
+    height: 60px;
+    padding: 30px;
+    background-color: #fed136;
+    border-radius: 60px;
+    color: #fff;
+    overflow: visible;
+    text-align: center;
+}
+.cart {
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    left: -5px;
+    top: -9px;
+}
+.computer {
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    left: -7px;
+    top: -4px;
+}
+.lock {
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    left: -3px;
+    top: -19px;
+}
+.headings {
+    font-size: 2.6vw;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 7vw;
+}
+.text-sub {
+    font-size: 16px;
+    font-style: oblique;
+    font-weight: normal;
+    text-align: center;
+    margin: -30px 0 65px 0;
+}
+.headings2 {
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.text {
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+}
+.content2 {
+    background-color: #f7f7f7;
+    padding-bottom: 7vw;
+}
+.box3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.frame {
+    width: 360px;   
+    margin: 10px; 
+}
+.picture1 {
+    height: 260px;
+    background-image: url(http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/roundicons.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.picture2 {
+    height: 260px;
+    background-image: url(http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/startup-framework.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.picture3 {
+    height: 260px;
+    background-image: url(http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/treehouse.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.picture4 {
+    height: 260px;
+    background-image: url(http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/golden.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.picture5 {
+    height: 260px;
+    background-image: url(http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/escape.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.picture6 {
+    height: 260px;
+    background-image: url(http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/dreams.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cover {
+    width: 360px;
+    position: absolute;
+    background: #fed136;
+    opacity: 0;
+    color: #fff;
+    font-size: 80px;
+    font-weight: 1000;
+    line-height: 260px;
+    text-align: center;
+}
+.cover:hover {
+    opacity: 0.9;
+}
+.headings3 {
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: normal;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+.text2 {
+    font-size: 17px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: normal;
+}
+.title-small {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.headings5 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: -10px 0;
+}
+.list {
+    list-style-type:none;
+}
+ul {
+    position: relative;
+    padding: 0;
+}
+.line {
+    position: absolute;
+    height: 107vw;
+    left: 50%;
+    margin: 20px -1px;
+    background-color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+}
+li>img {
+    width: 13vw;
+    height: 13vw;
+    border: 7px solid #f1f1f1;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    margin: 20px 0 120px 0;
+}
+.box-wenzi {
+    width: 13vw;
+    height: 13vw;
+    border: 7px solid #f1f1f1;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    margin: 20px 0 120px 0;
+    background-color: #fed136;
+}
+.text0 {
+    font-size: 1.7vw;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 13vw;
+    width: 13vw;
+}
+li {
+    padding-right: 13.92vw;
+    position: relative;
+}
+.cover3 {
+    width: 25vw;
+    position: absolute;
+    top: 0;
+    left: 13vw;
+    text-align: right;
+}
+.cover2 {
+    width: 25vw;
+    position: absolute;
+    top: 0;
+    right: 13vw;
+    text-align: left;
+}
+.content4 {
+    background-color: #f7f7f7;
+}
+.box5 {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+    flex-wrap: wrap;
+}
+.portrait {
+    width: 300px;
+    margin: 20px 30px 0 30px;
+}
+.photo1 {
+    width: 225px;
+    height: 225px;
+    border: 7px solid #fff;
+    background-image: url(http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/team/5.jpg);
+    border-radius: 125px;
+    margin-left: 30.5px;
+}
+.photo2 {
+    width: 225px;
+    height: 225px;
+    border: 7px solid #fff;
+    background-image: url(http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/team/6.jpg);
+    border-radius: 125px;
+    margin-left: 30.5px;
+}
+.photo3 {
+    width: 225px;
+    height: 225px;
+    border: 7px solid #fff;
+    background-image: url(http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/team/7.jpg);
+    border-radius: 125px;
+    margin-left: 30.5px;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+}
+.stamp2 {
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 60px;
+    color: #fff;
+    overflow: visible;
+    text-align: center;
+    font-size: 23px;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 8px;
+}
+.stamp2:hover {
+    background-color: #fed136;
+}
+.bird {
+    padding-top: 9px;
+}
+.f {
+    padding-top: 5px;
+}
+.in {
+    padding-top: 4px;
+}
+.box6 {
+    max-width: 750px;
+    margin: auto;
+    padding-bottom: 70px;
+}
+.box7 {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    margin-bottom: 15px;
+}
+.table {
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534235389676&di=ec461ac0b1215a3ff7c2da233fc4a134&imgtype=0&src=http%3A%2F%2Fimg07.tooopen.com%2Fimages%2F20170301%2Ftooopen_sy_200067522531.jpg);
+    width: 100vw;
+    height: 49vw;
+    background-size: contain;
+    text-align: center
+}
+.headings-reverse {
+    font-size: 2.6vw;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 7vw;
+}
+.text-reverse {
+    font-size: 16px;
+    color: rgb(177, 177, 177);
+    font-style: oblique;
+    font-weight: normal;
+    text-align: center;
+    margin: -30px 0 65px 0;
+}
+.form {
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+#information {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    width: 34vw;
+    min-width: 400px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #fed136;
+    border-radius: 5px;
+}
+textarea {
+    width: 34vw;
+    min-width: 400px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #fed136;
+    border-radius: 5px;
+}
+.icon-picture {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.icon-bottom {
+    display: flex;
+    width: 80vw;
+    height: 90px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.box8 {
+    text-align: center;
+    line-height: 90px;
+    width: 450px;
+}
+.con {
+    color: #fed136;
+    text-transform: capitalize;
+    margin: 0 9px;
+}
+.content5 {
+    margin: auto;
+}
+.text5 {
+    font-size: 14px;
+    line-height: 1.75;
+    font-weight: 100;
+}
