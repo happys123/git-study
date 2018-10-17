@@ -36,6 +36,9 @@
     text-align: center;
     margin: -2.6vw;
 }
+.center {
+    text-align: center;
+}
 .but1 {
     background-color: #fed136; 
     border: none;
@@ -76,26 +79,34 @@
     overflow: visible;
     text-align: center;
 }
+.icon {
+    width: 70px; 
+    height: 70px;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
 .cart {
     font-size: 70px;
+    color: #fff;
     text-align: center;
     position: relative;
     left: -5px;
-    top: -9px;
+    top: -4px;
 }
 .computer {
     font-size: 50px;
     text-align: center;
     position: relative;
-    left: -7px;
-    top: -4px;
+    left: -4px;
+    top: -6px;
 }
 .lock {
     font-size: 70px;
     text-align: center;
     position: relative;
     left: -3px;
-    top: -19px;
+    top: -10px;
 }
 .headings {
     font-size: 2.6vw;
@@ -310,7 +321,7 @@ li {
     border-radius: 125px;
     margin-left: 30.5px;
 }
-.icon {
+.icons {
     display: flex;
     justify-content: center;
 }
@@ -331,7 +342,9 @@ li {
     background-color: #fed136;
 }
 .bird {
-    padding-top: 9px;
+    padding-top: 3px;
+    width: 35px;
+    height: 35px;
 }
 .f {
     padding-top: 5px;
@@ -347,7 +360,7 @@ li {
 .box7 {
     width: 100vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 65px;
     margin-bottom: 15px;
 }
